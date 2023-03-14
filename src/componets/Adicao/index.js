@@ -2,8 +2,8 @@ import React from "react";
 
 
 
-function Adicao() {
-return <h1>O resultado da adição de </h1>;
+function Adicao(props) {
+return <h1>O resultado da soma de {props.num1} + {props.num2} é igual a {props.num1 + props.num2} </h1>;
 }
 
 export default Adicao;
